@@ -128,7 +128,7 @@ function renderBooks(books) {
         <h3 class="mb-1">${book.title}</h3>
         <p class="mb-1"><strong>Auteur:</strong> ${book.autor}</p>
         <p class="mb-2"><strong>Genre:</strong> ${book.genre}</p>
-        <a class="btn btn-outline-primary btn-sm" href="./book.html?id=${book.Id_books}&api=${encodeURIComponent(getApiBaseUrl())}">
+        <a class="btn btn-outline-primary btn-sm" href="./book.html?id=${book.id_books}&api=${encodeURIComponent(getApiBaseUrl())}">
           Voir la fiche
         </a>
       </article>

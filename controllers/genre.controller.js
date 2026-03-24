@@ -1,4 +1,4 @@
-import { genreDB } from "../database/genre.database.js";
+import { genreDB } from "../database/db.provider.js";
 
 
 const createGenre = async (req, res) => {

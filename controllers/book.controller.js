@@ -1,4 +1,4 @@
-import { bookDB } from "../database/book.database.js";
+import { bookDB } from "../database/db.provider.js";
 
 
 const createBook = async (req, res) => {
